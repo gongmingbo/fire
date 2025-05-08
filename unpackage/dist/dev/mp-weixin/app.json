@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/small/small",
+    "pages/myCenter/myCenter",
+    "pages/neighbor/neighbor",
+    "pages/neighborauth/neighborauth",
+    "pages/smalldetail/smalldetail",
+    "pages/smallshow/smallshow",
+    "pages/notedetail/notedetail",
+    "pages/notemanger/notemanger",
+    "pages/notepublish/notepublish",
+    "pages/votemanger/votemanger",
+    "pages/voteperson/voteperson",
+    "pages/myHome/myHome",
+    "pages/myHome/homeselect/homeselect",
+    "pages/myHome/homecertificate/homecertificate",
+    "pages/myHome/homesuccess/homesuccess",
+    "pages/myHome/homebindrecord/homebindrecord",
+    "pages/homeownermanger/homeownermanger",
+    "pages/homeownermanger/buidingDetail/buidingDetail",
+    "pages/audit/audit",
+    "pages/audit/auditDetail/auditDetail",
+    "pages/audit/audithistory/audithistory",
+    "pages/homeownermanger/housemanger/housemanger"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/home.png",
+        "selectedIconPath": "/static/home_on.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/small/small",
+        "iconPath": "/static/center.png",
+        "selectedIconPath": "/static/center_on.png",
+        "text": "小广场"
+      },
+      {
+        "pagePath": "pages/myCenter/myCenter",
+        "iconPath": "/static/user.png",
+        "selectedIconPath": "/static/user_on.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {}
+}

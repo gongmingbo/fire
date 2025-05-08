@@ -1,0 +1,215 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.container {
+  min-height: 100vh;
+  background-color: #f5f6fa;
+  padding: 30rpx;
+  padding-bottom: 120rpx;
+}
+.add-house {
+  margin-bottom: 30rpx;
+}
+.add-house .add-btn {
+  width: 100%;
+  height: 88rpx;
+  background: #fff;
+  border: 2rpx dashed #007AFF;
+  border-radius: 8rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #007AFF;
+  font-size: 32rpx;
+  transition: all 0.3s ease;
+}
+.add-house .add-btn .iconfont {
+  margin-right: 10rpx;
+  font-size: 36rpx;
+}
+.add-house .add-btn:active {
+  background: #f0f7ff;
+}
+.house-card {
+  background: #fff;
+  border-radius: 12rpx;
+  padding: 30rpx;
+  margin-bottom: 30rpx;
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.05);
+}
+.house-card .house-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 2rpx solid #f0f1f5;
+}
+.house-card .house-info .house-name {
+  font-size: 32rpx;
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 12rpx;
+  display: block;
+}
+.house-card .house-info .house-area {
+  font-size: 28rpx;
+  color: #666;
+  display: block;
+}
+.house-card .certificate-info .section-title {
+  font-size: 30rpx;
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 20rpx;
+  display: block;
+}
+.house-card .certificate-info .tips-list {
+  background: #f8f9fc;
+  padding: 20rpx;
+  border-radius: 8rpx;
+  margin-bottom: 20rpx;
+}
+.house-card .certificate-info .tips-list .tip-item {
+  font-size: 26rpx;
+  color: #666;
+  line-height: 1.6;
+  display: block;
+}
+.house-card .certificate-info .example-link {
+  font-size: 26rpx;
+  color: #007AFF;
+  margin-bottom: 30rpx;
+  display: block;
+}
+.house-card .certificate-info .upload-section .image-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10rpx;
+}
+.house-card .certificate-info .upload-section .image-list .image-item {
+  width: calc(33.33% - 20rpx);
+  margin: 10rpx;
+  position: relative;
+}
+.house-card .certificate-info .upload-section .image-list .image-item image {
+  width: 100%;
+  height: 200rpx;
+  border-radius: 8rpx;
+}
+.house-card .certificate-info .upload-section .image-list .image-item .delete-btn {
+  position: absolute;
+  top: -16rpx;
+  right: -16rpx;
+  width: 40rpx;
+  height: 40rpx;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.house-card .certificate-info .upload-section .image-list .image-item .delete-btn .iconfont {
+  color: #fff;
+  font-size: 24rpx;
+}
+.house-card .certificate-info .upload-section .upload-box {
+  background: #f8f9fc;
+  border: 2rpx dashed #ddd;
+  border-radius: 8rpx;
+  padding: 40rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+.house-card .certificate-info .upload-section .upload-box:active {
+  background: #f0f1f5;
+}
+.house-card .certificate-info .upload-section .upload-box .upload-icon {
+  width: 80rpx;
+  height: 80rpx;
+  margin-bottom: 16rpx;
+}
+.house-card .certificate-info .upload-section .upload-box .upload-text {
+  font-size: 28rpx;
+  color: #666;
+  margin-bottom: 8rpx;
+}
+.house-card .certificate-info .upload-section .upload-box .upload-tip {
+  font-size: 24rpx;
+  color: #999;
+}
+.house-card .action-buttons {
+  margin-top: 30rpx;
+  padding-top: 20rpx;
+  border-top: 2rpx solid #f0f1f5;
+}
+.house-card .action-buttons .remove-btn {
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  background: #fff;
+  color: #ff4d4f;
+  font-size: 28rpx;
+  border: 2rpx solid #ff4d4f;
+  border-radius: 8rpx;
+  transition: all 0.3s ease;
+}
+.house-card .action-buttons .remove-btn:active {
+  background: #fff1f0;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding: 20rpx 30rpx;
+  box-shadow: 0 -2rpx 10rpx rgba(0, 0, 0, 0.05);
+  z-index: 100;
+}
+.footer .submit-btn {
+  width: 100%;
+  height: 88rpx;
+  line-height: 88rpx;
+  background: #007AFF;
+  color: #fff;
+  font-size: 32rpx;
+  border-radius: 8rpx;
+  border: none;
+  transition: all 0.3s ease;
+}
+.footer .submit-btn:active {
+  background: #0056b3;
+  transform: scale(0.98);
+}
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.3s ease;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+}

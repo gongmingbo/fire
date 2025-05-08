@@ -1,0 +1,9 @@
+
+.title{
+	width: 500rpx;
+	height: 500rpx;
+	border: 1rpx solid gainsboro;
+	margin: 20px auto;
+	padding: 20rpx;
+	border-radius: 20rpx;
+}

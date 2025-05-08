@@ -1,0 +1,229 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/small/small",
+			"style": {
+
+
+				"navigationBarTitleText": "小广场",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/myCenter/myCenter",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/neighbor/neighbor",
+			"style": {
+				"navigationBarTitleText": "邻居信息",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/neighborauth/neighborauth",
+			"style": {
+				"navigationBarTitleText": "邻居信息",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/smalldetail/smalldetail",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/smallshow/smallshow",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/notedetail/notedetail",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path" : "pages/notemanger/notemanger",
+			"style" : 
+			{
+				"navigationBarTitleText" : "公告管理",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/notepublish/notepublish",
+			"style" : 
+			{
+				"navigationBarTitleText" : "新公告",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/votemanger/votemanger",
+			"style" : 
+			{
+				"navigationBarTitleText" : "投票管理",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/voteperson/voteperson",
+			"style" : 
+			{
+				"navigationBarTitleText" : "候选人信息",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/myHome/myHome",
+			"style" : 
+			{
+				"navigationBarTitleText" : "我的房屋",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/myHome/homeselect/homeselect",
+			"style" : 
+			{
+				"navigationBarTitleText" : "绑定房屋",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/myHome/homecertificate/homecertificate",
+			"style" : 
+			{
+				"navigationBarTitleText" : "绑定房屋",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/myHome/homesuccess/homesuccess",
+			"style" : 
+			{
+				"navigationBarTitleText" : "绑定房屋",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/myHome/homebindrecord/homebindrecord",
+			"style" : 
+			{
+				"navigationBarTitleText" : "房屋绑定记录",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+				
+			}
+		},
+		{
+			"path" : "pages/homeownermanger/homeownermanger",
+			"style" : 
+			{
+				"navigationBarTitleText" : "房屋及业主管理",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/homeownermanger/buidingDetail/buidingDetail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "楼栋详情",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/audit/audit",
+			"style" : 
+			{
+				"navigationBarTitleText" : "业主审核",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/audit/auditDetail/auditDetail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "业主审核详情",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/audit/audithistory/audithistory",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/homeownermanger/housemanger/housemanger",
+			"style" : 
+			{
+				"navigationBarTitleText" : "小区资料管理",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "black",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"position": "bottom",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "/static/home.png",
+				"selectedIconPath": "/static/home_on.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/small/small",
+				"iconPath": "/static/center.png",
+				"selectedIconPath": "/static/center_on.png",
+				"text": "小广场"
+			},
+			{
+				"pagePath": "pages/myCenter/myCenter",
+				"iconPath": "/static/user.png",
+				"selectedIconPath": "/static/user_on.png",
+				"text": "个人中心"
+			}
+		]
+	}
+}

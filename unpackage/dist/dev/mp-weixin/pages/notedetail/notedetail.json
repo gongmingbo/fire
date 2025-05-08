@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "notedetail-content": "../../components/NotedetailContent",
+    "vote-remark": "../../components/voteRemark"
+  }
+}
