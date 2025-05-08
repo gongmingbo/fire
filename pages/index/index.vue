@@ -52,7 +52,7 @@
 			</view>
 		</view>
 
-		<!-- 公告列表 -->
+		<!-- 公告列表表 -->
 		<view class="notice-list">
 			<view class="notice-item" v-for="(notice, index) in notices" :key="index">
 				<view class="notice-header">
